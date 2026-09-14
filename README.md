@@ -12,9 +12,11 @@
 
 | Game | Description | Entry |
 | --- | --- | --- |
-| 江湖风云模拟 | 古风开放世界文字 RPG，支持 NPC 关系、记忆、背包、存档和 AI 对话 | [`GD3.9.html`](./GD3.9.html) |
-| 现代人生模拟 | 以工作、关系和城市生活为主题的互动人生故事 | [`shv-modern4.1.html`](./shv-modern4.1.html) |
-| 修仙问道模拟 | 围绕功法、因果、人脉与探索展开的修行模拟 | [`xx3.1.html`](./xx3.1.html) |
+| 江湖风云模拟 | 古风开放世界文字 RPG，支持 NPC 关系、记忆、背包、存档和 AI 对话 | [`wuxia.html`](./wuxia.html) |
+| 现代人生模拟 | 以工作、关系和城市生活为主题的互动人生故事 | [`modern-life.html`](./modern-life.html) |
+| 修仙问道模拟 | 围绕功法、因果、人脉与探索展开的修行模拟 | [`cultivation.html`](./cultivation.html) |
+
+三个游戏使用统一的自定义 OpenAI 兼容接口配置：玩家自行填写接口地址、模型 ID 与 API Key。项目不内置中转站、官方模型或默认密钥。
 
 ## Local development
 
