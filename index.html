@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="个人游戏分享站：收录我制作的 AI 叙事模拟与实验性小游戏。">
+  <meta name="theme-color" content="#171923">
+  <title>我的游戏分享站 · Indie Game Shelf</title>
+  <style>
+    :root{--bg:#101117;--panel:#191b25;--panel2:#202331;--ink:#f4f1ea;--muted:#a7a9b5;--line:#303342;--accent:#f4b860;--accent2:#8ec5ff;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.6}
+    a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}.logo{font-weight:800;letter-spacing:.04em}.logo span{color:var(--accent)}.nav-links{display:flex;gap:20px;color:var(--muted);font-size:14px}.nav-links a{text-decoration:none}.nav-links a:hover{color:var(--ink)}
+    .hero{padding:76px 0 88px;max-width:780px}.eyebrow{color:var(--accent);font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,78px);line-height:1.08;letter-spacing:-.04em;margin:16px 0 22px}.hero p{color:var(--muted);font-size:19px;max-width:650px;margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:11px 18px;text-decoration:none;font-weight:750;font-size:14px;border:1px solid var(--line);background:var(--panel2)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#241b0c}.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+    section{padding:28px 0 72px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:20px}.section-head h2{font-size:28px;margin:0}.section-head p{color:var(--muted);margin:0;font-size:14px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{display:flex;flex-direction:column;min-height:285px;padding:22px;border:1px solid var(--line);border-radius:16px;background:var(--panel);box-shadow:0 18px 50px #0002}.card-art{height:112px;border-radius:10px;margin-bottom:18px;display:grid;place-items:center;font-size:38px;background:#6e2929}.card:nth-child(2) .card-art{background:#20527a}.card:nth-child(3) .card-art{background:#3e6c55}.card h3{font-size:20px;margin:0 0 7px}.card p{color:var(--muted);font-size:14px;margin:0 0 18px}.card .btn{margin-top:auto;align-self:flex-start}.about{display:grid;grid-template-columns:1.3fr 1fr;gap:20px}.about-box{padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.about-box h2{margin-top:0}.about-box p{color:var(--muted)}.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.fact{padding:15px;border-radius:10px;background:var(--panel2)}.fact strong{display:block;font-size:22px;color:var(--accent)}.fact span{font-size:13px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:24px 0 36px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:15px}
+    @media (max-width:760px){.wrap{width:min(var(--max),calc(100% - 28px))}.nav-links{gap:12px}.hero{padding:48px 0 62px}.hero p{font-size:17px}.grid,.about{grid-template-columns:1fr}.card{min-height:0}.facts{grid-template-columns:repeat(2,1fr)}footer{display:block}footer>*{display:block;margin-top:6px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav" aria-label="主导航"><div class="logo">GAME<span>/</span>SHELF</div><div class="nav-links"><a href="#games">游戏</a><a href="#about">关于</a><a href="https://github.com/achengz/AI-driven-text-based-game" target="_blank" rel="noreferrer">GitHub ↗</a></div></nav>
+    <header class="hero"><div class="eyebrow">个人游戏实验室 · 2026</div><h1>把想象做成<br>可以玩的故事。</h1><p>这里分享我制作的浏览器小游戏、AI 叙事原型和交互实验。无需安装，打开链接就能开始一段新的旅程。</p><div class="actions"><a class="btn primary" href="#games">浏览作品 ↓</a><a class="btn" href="https://github.com/achengz/AI-driven-text-based-game" target="_blank" rel="noreferrer">查看源码 ↗</a></div></header>
+    <section id="games"><div class="section-head"><div><h2>正在分享</h2><p>每个项目都是一个可以直接打开的独立 HTML 页面。</p></div></div><div class="grid">
+      <article class="card"><div class="card-art" aria-hidden="true">⚔️</div><h3>江湖风云模拟</h3><p>古风开放世界文字 RPG。经营生计、结交 NPC、探索门派与市井日常，支持存档、记忆和 AI 对话。</p><a class="btn primary" href="GD3.9.html">开始闯荡 →</a></article>
+      <article class="card"><div class="card-art" aria-hidden="true">🏙️</div><h3>现代人生模拟</h3><p>从今天开始写下自己的人生：工作、关系、选择与城市生活，都由你的行动推动。</p><a class="btn" href="shv-modern4.1.html">进入城市 →</a></article>
+      <article class="card"><div class="card-art" aria-hidden="true">☯️</div><h3>修仙问道模拟</h3><p>在山门、秘境与尘世之间修行。积累功法、人脉和因果，看看这一世能走多远。</p><a class="btn" href="xx3.1.html">开始修行 →</a></article>
+    </div></section>
+    <section id="about"><div class="about"><div class="about-box"><h2>关于这个小站</h2><p>这是一个个人独立游戏分享项目，专注于低门槛、可复玩的叙事体验。项目以原生 HTML/CSS/JavaScript 构建，数据默认保存在你的浏览器本地；需要 AI 对话时，请在游戏内自行填写 API Key。</p><p>欢迎在 GitHub 提交 Issue、分享你的故事，或提出新的游戏点子。</p></div><div class="about-box"><div class="facts"><div class="fact"><strong>3</strong><span>可试玩作品</span></div><div class="fact"><strong>0</strong><span>安装与构建依赖</span></div><div class="fact"><strong>100%</strong><span>浏览器运行</span></div><div class="fact"><strong>MIT</strong><span>建议的开源许可</span></div></div></div></div></section>
+    <footer><span>© 2026 个人游戏分享站</span><span>Made with curiosity · Deployed on GitHub Pages</span></footer>
+  </div>
+</body>
+</html>
